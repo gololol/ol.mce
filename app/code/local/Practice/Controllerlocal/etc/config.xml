@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Practice_Controllerlocal>
+            <version>1.0.0</version>
+        </Practice_Controllerlocal>
+    </modules>
+
+    <frontend>
+        <routers>
+            <Practice_Controllerlocal>
+                <use>standard</use>
+                <args>
+                    <module>Practice_Controllerlocal</module>
+                    <frontName>controllerlocal</frontName>
+                </args>
+            </Practice_Controllerlocal>
+        </routers>
+    </frontend>
+</config>
