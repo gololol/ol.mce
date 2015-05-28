@@ -1,5 +1,5 @@
 <?php
-class Practice_Controllertest_IndexController extends Mage_Core_Controller_Front_Action
+class Practice_ControllerTest_IndexController extends Mage_Core_Controller_Front_Action
 {
     public  function indexAction()
     {
