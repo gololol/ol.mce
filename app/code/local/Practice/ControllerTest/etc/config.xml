@@ -1,20 +1,20 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <Practice_ControllerTest>
+        <Practice_Controllertest>
             <version>0.0.1</version>
-        </Practice_ControllerTest>
+        </Practice_Controllertest>
     </modules>
 
     <frontend>
         <routers>
-            <practice_controllertest>
+            <Practice_Controllertest>
                 <use>standard</use>
                 <args>
-                    <module>Practice_ControllerTest</module>
+                    <module>Practice_Controllertest</module>
                     <frontName>requestflowtest</frontName>
                 </args>
-            </practice_controllertest>
+            </Practice_Controllertest>
         </routers>
     </frontend>
 </config>

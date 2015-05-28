@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Practice_Showme>
+            <version>0.0.1</version>
+        </Practice_Showme>
+    </modules>
+
+    <frontend>
+        <routers>
+            <Practice_Showme>
+                <use>standard</use>
+                <args>
+                    <module>Practice_Showme</module>
+                    <frontName>sm</frontName>
+                </args>
+            </Practice_Showme>
+        </routers>
+    </frontend>
+</config>
